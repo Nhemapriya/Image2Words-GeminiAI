@@ -1,0 +1,13 @@
+prefix=/Users/hemapriyanagarajan/Desktop/gemini_handson/venv
+exec_prefix=/Users/hemapriyanagarajan/Desktop/gemini_handson/venv
+libdir=/Users/hemapriyanagarajan/Desktop/gemini_handson/venv/lib
+sharedlibdir=/Users/hemapriyanagarajan/Desktop/gemini_handson/venv/lib
+includedir=/Users/hemapriyanagarajan/Desktop/gemini_handson/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
